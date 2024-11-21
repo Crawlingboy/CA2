@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+nav {
+    background-color: lightcyan;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+ 
+nav ul li {
+    padding: 1em;
+}
+
+.centerImg {
+    display: block;
+    margin: auto;
+}
+.Products {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+.fixImg {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.bio {
+    display: block;
+}
+
+.Mens {
+    display: block;
+    margin: auto
+}
+
