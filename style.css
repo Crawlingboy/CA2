@@ -48,3 +48,35 @@ ul li {
     margin: auto
 }
 
+.catalog_list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons_social {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-terms {
+    width: 100%;
+}
+
+.footer_links {
+    width: 50%;
+}
+
+.footer_links h2 {
+    width: 100%;
+}
+
+.footer_map {
+    width: 50%;
+}
