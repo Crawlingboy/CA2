@@ -80,3 +80,15 @@ footer {
 .footer_map {
     width: 50%;
 }
+.sectionbio {   
+        display: block;
+        text-align: center;
+}
+.bioimg {
+    border: 9px solid lightcyan;
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
