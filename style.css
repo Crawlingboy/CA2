@@ -1,136 +1,67 @@
-
-.terms-and-conditions-page {
-    padding: 20px;
-    background-color: lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.terms-container {
-    max-width: 1000px;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    
-}
-.terms-title {
-    font-size: 2em;
-    color: black;
-    text-align: center;
+body {
     margin: 0;
 }
 
-.terms-intro {
-    font-size: 1.1em;
-    color: black;
+header {
     text-align: center;
-    margin: 0 auto;
-    max-width: 80%;
+}
+nav {
+    background-color: lightcyan;
 }
 
-
-
-.terms-section {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.terms-link {
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.terms-link:hover {
-    text-decoration: underline;
-}
-
-
-
-
-.sustainability-page {
-    padding: 20px;
-    background-color: lightgray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.sustainability-container {
-    max-width: 1000px;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.sustainability-title {
-    font-size: 2em;
-    color: darkgreen;
-    text-align: center;
+nav ul {
     margin: 0;
-}
-
-.sustainability-intro {
-    font-size: 1em;
-    color:black;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 80%;
-}
-
-.sdg-section {
+    padding-left: 0;
+    list-style: none;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
 
 }
+ 
+nav ul li {
+    padding: 1em;
+}
 
-.sdg-title {
-    font-size: 2em;
-    color: darkgreen;
+.centerImg {
+    display: block;
+    margin: auto;   
+}
+.Products {
     text-align: center;
 }
 
-.sdg-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+ul li {
+    list-style: none;
 }
 
-.sdg-item {
-    
-    min-width: 250px;
-    background: whitesmoke;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.fixImg {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.bio {
+    display: block;
 }
 
-.sdg-image {
-    max-width: 25%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 15px;
+.Mens {
+    display: block;
+    margin: auto
 }
 
-.sustainability-link {
-    color: darkgreen;
+h1.big {
+    font-size: s 40px;
+} 
+
+.button {
+    background-color: lightgreen;
+    color: white;
     text-decoration: none;
+    padding: 12px 30px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.sustainability-link:hover {
-    text-decoration: underline;
-}
+.button1 {font-size: 27px;}
+
 
 

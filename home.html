@@ -14,47 +14,48 @@
                 <li> <a href="Bio.html"> About us </a> </li>
                 <li> <a href="Contact.html"> Contact us </a> </li>
                 <li> <a href="catalog.html"> Catalog</a></li>
-                <li> <a href="#"">Basket</a></li>
+                <li> <a href="#"> <button onclick="empty()"> Basket </button></a> </li>
             </ul>
         </nav>
-        <form>
-            <input type="text" placeholder="Search" class="searchbar">
-        </form>
+
         <h1> Shoo </h1>
-        <h3> Here to get you the highest quality shoes in quick time so we can shoo you out </h3>
-        <h6> (definitely not copying schuh)</h6>
-    </header>
-    <section class="Products">
+        <h2> Here to get you the highest quality shoes in quick time so we can shoo you out </h2>
 
-        <img src="img/Mens/Men.jpg" usemap="#Mens" class="centerImg">
-        <map name="Mens">
-            <area shape="rect" coords="0,0,225,225" href="men.html" alt="">
-            <p> Quality Mens Leather </p>
-            <p> €150.00 </p>
-        </map>
+        <h1 class="big"> CHRISTMAS SALE </h1>
+        <h2> UP TO 50% OFF ON SELECTED PRODUCTS </h2>
 
-        <img src="img/Womens/Women.jpg" usemap="#Womens" class="centerImg">
-        <map name="Womens">
-            <area shape="rect" coords="0,0,225,225" href="Women.html" alt="">
-            <p> Quality Womens heels</p>
-            <p> €100.00 </p>
-        </map>
+        <p> Here at Shoo you are able to get the best shoes in the market for the best prices, shop now from our wide catalog </p>
 
-        <img src="img/Children/Child.jpg" usemap="#Child" class="centerImg">
-        <map name="Child">
-            <area shape="rect" coords="0,0,225,225" href="Child.html" alt="">
-            <p> Some ELITE Batman light up shoes </p>
-            <p> €1000.00 </p>
-        </map>
+        <button class="button button1"> <a href="catalog.html"> Shop </a></button>
 
     </section>
+    <footer>
+        <h2>Find us on:</h2>
+        <section class="footer_links">
+            <a class="footer_terms" href="termsandconditions.html">Terms and Conditions</a>
+            <a href="https://www.youtube.com/@tudublin">
+                <img class="icons_social" src="img/social/youtube.png" alt="tudublin youtube">
+            </a>
+            <a href="https://www.instagram.com/tudublin/">
+                <img class="icons_social" src="img/social/instagram.png" alt="tudublin instagram">
+            </a>
+            <a href="https://www.facebook.com/TechnologicalUniversityDublin/">
+                <img class="icons_social" src="img/social/facebook.png" alt="facebook tudublin">
+            </a>
+        </section>
+    </footer>
+
     <footer style="color: black">
         <section>
             <a href="termsandconditions.html">Terms and Conditions</a>
         </section>
-        <section>
-            <p>whatever else idk</p>
-        </section>
-    </footer>
+
+        <script>
+            function empty() {
+                alert("The basket is empty")
+            }
+        </script>
+
+    
 </body>
 </html>
