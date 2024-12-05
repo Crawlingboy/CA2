@@ -56,9 +56,15 @@ ul li {
 
 footer {
     background-color: grey;
-    display: flex;
-    justify-content: space-around;
+    position: fixed;
+    justify-content: space-evenly;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+
 }
+
 
 .icons_social {
     width: 40px;
@@ -79,4 +85,62 @@ footer {
 
 .footer_map {
     width: 50%;
+}
+
+.section_contact {
+    display: flex;
+    background-color: lightblue;
+    border-radius: 2em;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.location{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+
+.article_contact{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article_section{
+    background-color: lightblue;
+    display: flex;
+    width: 25%;
+    border: 1px solid #000;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.quaryform{
+    display: flex;
+    background-color: lightblue;
+    width: 25%;
+    flex-wrap: wrap;
+}
+
+
+.chatimg{
+    margin-top: 1em;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
 }
